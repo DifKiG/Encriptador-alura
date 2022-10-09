@@ -14,19 +14,20 @@ main{
 
 .logo {
     position: absolute;
-    height: 55px;
-    left: 70px;
-    top: 50px;
+    width: 250px;
+    height: 100px;
+    left: 10px;
+    top: 40px;
 }
 
 .titulo_logo{
     font-size: 60px;
     position: relative;
     height: 100px;
-    margin-left: 540px;
+    margin-left: 500px;
     top: 70px;
     color: red;
-    font-weight: bold;
+    font-weight: 800;
 }
 
 body{
