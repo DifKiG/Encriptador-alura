@@ -20,13 +20,13 @@ main{
 }
 
 .titulo_logo{
-    font-size: 50px;
+    font-size: 60px;
     position: relative;
     height: 100px;
-    margin-left: 550px;
+    margin-left: 540px;
     top: 70px;
-    color: rgb(171, 23, 23);
-    font-weight: bolder;
+    color: red;
+    font-weight: bold;
 }
 
 body{
@@ -89,7 +89,7 @@ body{
     padding: 15px;
     position: relative;
     width: 30%;
-    background: rgb(56, 80, 146);
+    background: red;
     border-radius: 10px;
     border: none;
     color:#fff
@@ -108,7 +108,7 @@ body{
     position: relative;
     margin-left: 30px;
     width: 30%;
-    background: rgb(56, 80, 146);
+    background: red;
     border-radius: 10px;
     border: none;    
     color:#fff
@@ -129,7 +129,7 @@ body{
     position: relative;
     margin-left: 200px;
     width: 20%;
-    background: rgb(56, 80, 146);
+    background: red;
     border-radius: 10px;
     border: none;
     color:#fff
