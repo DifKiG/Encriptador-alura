@@ -1,0 +1,161 @@
+html{
+    height: 100%;
+
+}
+
+main{
+    display: flex;
+    margin-inline: center;
+    margin-left: 200px;
+    margin-bottom: 100px;
+    padding: 40px;
+    
+}
+
+.logo {
+    position: absolute;
+    height: 55px;
+    left: 70px;
+    top: 50px;
+}
+
+.titulo_logo{
+    font-size: 50px;
+    position: relative;
+    height: 100px;
+    margin-left: 550px;
+    top: 70px;
+    color: rgb(171, 23, 23);
+    font-weight: bolder;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    background-image: url("imagenes/Si-eres-fanático-de-Los-Simpson-estos-datos-te-interesarán-portada.jpg")
+    
+}
+
+.cifrar{
+    position: relative;
+    margin-top: 0px;
+    width: 100%;
+    height: 50%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+  
+}
+
+.mensaje{
+    position: relative;
+    margin-top: 0px;
+    margin-left: 100px;
+    background-image: url("imagenes/HomerGinius.png");    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px;
+    
+}
+
+
+.info{
+    display: flex;
+    align-items: center;
+    margin: 16px 0px 16px 60px;
+}
+
+.info img{
+    width: 16px;
+    height: 16px;
+    object-fit: cover;
+    display: inline-block;
+}
+
+.info p{
+
+    margin-left: 10px;
+    display: inline-block;
+    color: black;
+}
+
+.Encriptar {
+    margin: 5px 0px;
+    padding: 15px;
+    position: relative;
+    width: 30%;
+    background: rgb(56, 80, 146);
+    border-radius: 10px;
+    border: none;
+    color:#fff
+}
+.Encriptar:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+
+}
+.Encriptar:active {
+    background: #08192f;
+}
+
+.Desencriptar {
+    padding: 15px;
+    position: relative;
+    margin-left: 30px;
+    width: 30%;
+    background: rgb(56, 80, 146);
+    border-radius: 10px;
+    border: none;    
+    color:#fff
+}
+.Desencriptar:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.Desencriptar:active{
+    background: #041121;
+    color: #fff;
+}
+
+.copiar {
+    
+    padding: 15px;
+    position: relative;
+    margin-left: 200px;
+    width: 20%;
+    background: rgb(56, 80, 146);
+    border-radius: 10px;
+    border: none;
+    color:#fff
+}
+.copiar:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+
+}
+.copiar:active {
+    background: #041121;
+}
+
+footer{  
+        
+    text-align: center;
+    background: rgba(75, 75, 113, 0.321); 
+    padding: 30px;
+    margin-top: auto;
+
+}
+
+.copyright{
+    color: white;
+    font-size: 15px;
+    margin: 10px;
+    font-weight: 500;
+}
+
