@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
@@ -11,35 +12,39 @@
 
 <body>
     <header>
-        <img class="logo" src="imagenes/Logo.png" alt="Logo alura">
-        <h1 class="titulo_logo">Encriptad'oh</h1>
+        <div class="contenedor">
+            <img class="logo" src="imagenes/Logo.png" alt="Logo alura">
+            <h1 class="titulo_logo">Encriptad'oh</h1>
+        </div>    
     </header>
-    <main>
-        <section>
-            <textarea class="cifrar" 
-            cols="60" rows="10"
-            placeholder="Ingrese el texto aquí"></textarea>
-           
-            <div class="botones">
-                <button class="Encriptar" onclick="btnEncriptar()">
-                    Encriptar
-                </button> 
-                <button class="Desencriptar" onclick="btnDesencriptar()">
-                    Desencriptar
-                </button>
-                
-                <div class="info">
-                    <img src="imagenes/Vector.png" alt="signo de exclamación">
-                    <p id="advertencia">No se acepta carácteres especiales, números ni mayúsculas</p>
+    <div class="cuerpo">  
+        <main>
+            <section>
+                <textarea class="cifrar" 
+                cols="60" rows="10"
+                placeholder="Ingrese el texto aquí"></textarea>
+            
+                <div class="botones">
+                    <button class="Encriptar" onclick="btnEncriptar()">
+                        Encriptar
+                    </button> 
+                    <button class="Desencriptar" onclick="btnDesencriptar()">
+                        Desencriptar
+                    </button>
+                    
+                    <div class="info">
+                        <img src="imagenes/Vector.png" alt="signo de exclamación">
+                        <p id="advertencia">No se acepta carácteres especiales, números ni mayúsculas</p>
+                    </div>
                 </div>
-            </div>
-        </section>
-        
-        <section>
-            <textarea class="mensaje" cols="40" rows="10"></textarea>
-            <button class="copiar" onclick="copiar()">Copiar</button>
-        </section>
-    </main>
+            </section>
+            
+            <section>
+                <textarea class="mensaje" cols="35" rows="15"></textarea>
+                <button class="copiar" onclick="copiar()">Copiar</button>
+            </section>
+        </main>
+    </div>
 
     <footer> 
         <p class="copyright">&copy Copyright Encriptador-Alura by Diego Quijano - 2022</p>
